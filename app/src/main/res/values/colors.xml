@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <color name="colorAccent">#C0C0C0</color>
+
+    <color name="colorAccentGreen">#429C18</color>
+
+    <color name="colorDivider">#323232</color>
+
+    <color name="colorPrimary">#272727</color>
+
+    <color name="colorPrimaryDark">#161616</color>
+
+    <color name="colorTeaBlack">#5C3410</color>
+
+    <color name="colorTeaDarjeeling">#A76E37</color>
+
+    <color name="colorTeaGreen">#429C18</color>
+
+    <color name="colorTeaHalfFullBakedPuerh">#921424</color>
+
+    <color name="colorTeaHerbal">#A21010</color>
+
+    <color name="colorTeaJasmine">#DAA229</color>
+
+    <color name="colorTeaMatcha">#428611</color>
+
+    <color name="colorTeaMate">#1F6306</color>
+
+    <color name="colorTeaOolong">#1F74AD</color>
+
+    <color name="colorTeaRawPuerh">#B62960</color>
+
+    <color name="colorTeaRooibos">#A84D32</color>
+
+    <color name="colorTeaWhite">#249296</color>
+
+    <color name="colorTeaYellow">#AC9519</color>
+
+    <color name="colorTickSeekBarText">#FFFFFF</color>
+
+    <color name="colorTickSeekBarTrack">#585858</color>
+
+    <color name="colorTickSeekBarTrackProgress">#838383</color>
+</resources>

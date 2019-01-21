@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="action_about">O aplikacji</string>
+    <string name="action_settings">Ustawienia</string>
+
+    <string name="app_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non mauris quam. Integer vitae massa lectus. Fusce quis tincidunt orci. Ut sed metus commodo, lobortis dui ac, congue nisl. Etiam eu ex lectus. Phasellus a velit nibh. Nam nec lorem ac tellus volutpat dapibus eget vitae tellus. Duis aliquam libero vel justo pellentesque tristique.</string>
+    <string name="app_name">Parzenie herbaty</string>
+
+    <string name="attribution_app_icon">Ikona aplikacji stworzona przez Freepik z www.flaticon.com na licencji CC 3.0 BY</string>
+
+    <string name="attributions">Atrybucje</string>
+
+    <string name="contact_me">Kontakt</string>
+
+    <string name="copyright">Copyright © %1$d Michał Daniel</string>
+    <string name="copyright_and_license"><![CDATA[Copyright & licencja]]></string>
+
+    <string name="file_bug_report">Zgłoś błąd programu</string>
+
+    <string name="find_this_app">Aplikacja online</string>
+
+    <string name="from_celcius_to_celcius">Od %1$d℃ do %2$d℃</string>
+    <string name="from_fahrenheit_to_fahrenheit">Od %1$d℉ do %2$d℉</string>
+
+    <string name="get_the_source_code">Zobacz kod źródłowy</string>
+
+    <string name="ok">OK</string>
+
+    <string name="personal_website">Strona osobista</string>
+
+    <string name="privacy">Prywatność</string>
+
+    <string name="rate_dialog_cancel">Później</string>
+    <string name="rate_dialog_message">Jeśli lubisz korzystać z tej aplikacji, czy możesz poświęcić chwilę, aby ją ocenić? To nie zajmie więcej niż minutę. Dziękuję za wsparcie miłośniku herbaty!</string>
+    <string name="rate_dialog_rate">Oceń teraz</string>
+    <string name="rate_dialog_thanks">Nie, dzięki</string>
+    <string name="rate_dialog_title">Oceń aplikację</string>
+
+    <string name="read_privacy_policy">Zobacz politykę prywatności</string>
+
+    <string name="release_under_the_gnu_gpl">Na licencji GNU GPL v3 lub nowszej</string>
+
+    <string name="select_time">Wybierz czas</string>
+
+    <string name="settings_description_units">Użyj imperialnych jednostek temperatury</string>
+    <string name="settings_timer">Pomiń minutnik systemowy</string>
+    <string name="settings_timer_description">Natychmiast uruchom minutnik bez pokazywania interfejsu aplikacji systemu</string>
+    <string name="settings_ui">Kolorowy interfejs</string>
+    <string name="settings_ui_description">Użyj kolorowego tła na kartach herbat</string>
+    <string name="settings_units">Jednostki imperialne</string>
+
+    <string name="steep_for_to_minutes">parzmy od %1$d do %2$d minut."</string>
+
+    <string name="stopwatch_started">Minutnik parzenia herbaty został uruchomiony w domyślnej aplikacji stopera systemu.</string>
+
+    <string name="support_suggestions_bug_reports"><![CDATA[Wsparcie, sugestie & zgłaszanie błędów]]></string>
+
+    <string name="tea_black">Czarna</string>
+    <string name="tea_darjeeling">Darjeeling</string>
+    <string name="tea_description_black">Użyj wrzącej wody.</string>
+    <string name="tea_description_darjeeling">Odczekaj chwilę po zagotowaniu.</string>
+    <string name="tea_description_green">Zagotuj wodę i poczekaj, aż ostygnie.</string>
+    <string name="tea_description_half_full_baked_puerh">Namaczaj przez 30 sekund, wypłucz i zaparz ponownie.</string>
+    <string name="tea_description_herbal">Postępuj z instrukcjami na opakowaniu, dłuższe parzenie oznacza mocniejszy napar.</string>
+    <string name="tea_description_jasmine">Postępuj jak z herbatą zieloną.</string>
+    <string name="tea_description_matcha">Postępuj z instrukcjami na opakowaniu.</string>
+    <string name="tea_description_mate">Dobierz czas i temperaturę parzenia wedle uznania i gustu.</string>
+    <string name="tea_description_oolong">Wypłukaj liście pod gorącą wodą aby się otworzyły.</string>
+    <string name="tea_description_raw_puerh">Namaczaj przez 30 sekund, wypłucz i zaparz ponownie.</string>
+    <string name="tea_description_rooibos">Praktycznie można parzyć dowolnie długo wedle uznania.</string>
+    <string name="tea_description_white">Zagotuj wodę i poczekaj, aż ostygnie.</string>
+    <string name="tea_description_yellow">Postępuj jak z herbatą zieloną, ale zaparzaj dłużej.</string>
+    <string name="tea_green">Zielona</string>
+    <string name="tea_half_full_baked_puerh">Czerwona palona</string>
+    <string name="tea_herbal">Ziołowa</string>
+    <string name="tea_jasmine">Jaśminowa</string>
+    <string name="tea_matcha">Matcha</string>
+    <string name="tea_mate">Mate</string>
+    <string name="tea_oolong">Oolong</string>
+    <string name="tea_raw_puerh">Czerwona</string>
+    <string name="tea_rooibos">Rooibos</string>
+    <string name="tea_steeping">Herbata %1$s - parzenie"</string>
+    <string name="tea_white">Biała</string>
+    <string name="tea_yellow">Żółta</string>
+
+    <string name="use_to_make_a_cup">%1$d %2$s na kubek naparu.</string>
+
+    <string name="version_no">Wersja: %1$s</string>
+    <string name="version_unknown">Wersja nieznana</string>
+</resources>

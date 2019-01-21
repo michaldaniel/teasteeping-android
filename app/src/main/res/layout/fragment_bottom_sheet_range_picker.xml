@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="ViewModel"
+            type="eu.morningbird.teasteeping.view.model.BottomSheetRangePickerFragmentVM" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottomSheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="56dp"
+        app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+        tools:context=".view.BottomSheetRangePickerFragment">
+
+        <com.warkiz.tickseekbar.TickSeekBar
+            android:id="@+id/timeTickSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/setTimerFloatingActionButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dividerLinearLayout"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:tsb_progress_value_float="false"
+            app:tsb_show_tick_marks_type="oval"
+            app:tsb_show_tick_texts="above"
+            app:tsb_thumb_size="16dp"
+            app:tsb_tick_marks_size="8dp"
+            app:tsb_tick_texts_color="@color/colorTickSeekBarText"
+            app:tsb_tick_texts_size="16sp"
+            app:tsb_ticks_count="10"
+            app:tsb_track_background_color="@color/colorTickSeekBarTrack"
+            app:tsb_track_background_size="2dp"
+            app:tsb_track_progress_color="@color/colorTickSeekBarTrackProgress"
+            app:tsb_track_progress_size="2dp"
+            tools:tsb_max="10"
+            tools:tsb_min="1"
+            tools:tsb_thumb_color="@color/colorTeaMate"
+            tools:tsb_tick_marks_color="@color/colorTeaMate" />
+
+        <TextView
+            android:id="@+id/selectTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/select_time"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/dividerLinearLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/setTimerFloatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="32dp"
+            android:backgroundTint="@{context.getColor(ViewModel.teaColor)}"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="@{ViewModel::setTimerFloatingActionButtonOnClick}"
+            android:src="@drawable/ic_check"
+            app:borderWidth="0dp"
+            app:fabSize="mini"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/timeTickSeekBar"
+            tools:backgroundTint="@color/colorTeaMate" />
+
+        <LinearLayout
+            android:id="@+id/dividerLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorDivider"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/timeTickSeekBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/selectTimeTextView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
