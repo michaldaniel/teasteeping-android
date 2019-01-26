@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+    This file is part of "Tea steeping" android application.
+
+    "Tea steeping" is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 3 of the License, or
+    (at your option) any later version.
+
+    "Tea steeping" is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with "Tea steeping". If not, see <http://www.gnu.org/licenses/>.
+-->
 <resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
-
-    <dimen name="appbar_padding_top">8dp</dimen>
-
-    <dimen name="bottom_sheet_corner_radius">16dp</dimen>
-    <dimen name="bottom_sheet_top_padding">16dp</dimen>
-
     <dimen name="fab_margin">32dp</dimen>
     <dimen name="tea_name_margin">32dp</dimen>
     <dimen name="tea_name_text_size">97sp</dimen>

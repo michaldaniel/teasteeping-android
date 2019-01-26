@@ -1,5 +1,22 @@
 package eu.morningbird.teasteeping.view
 
+/*
+ *  This file is part of "Tea steeping" android application.
+ *
+ *  "Tea steeping" is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  "Tea steeping" is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with "Tea steeping". If not, see <http://www.gnu.org/licenses/>.
+*/
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import mehdi.sakout.aboutpage.AboutPage
@@ -74,8 +91,7 @@ class AboutActivity : AppCompatActivity() {
         element.iconDrawable = R.drawable.ic_copyright
         element.iconTint = mehdi.sakout.aboutpage.R.color.about_item_icon_color
         element.onClickListener = View.OnClickListener {
-            //TODO: Fill in copy right url
-            val url = "https://www.github.com"
+            val url = "https://github.com/michaldaniel/teasteeping-android/blob/master/NOTICE"
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
             val bundle = Bundle()
             bundle.putString(FirebaseAnalytics.Param.ITEM_ID, "copyrights")
@@ -92,8 +108,7 @@ class AboutActivity : AppCompatActivity() {
         element.iconDrawable = R.drawable.ic_file_document
         element.iconTint = mehdi.sakout.aboutpage.R.color.about_item_icon_color
         element.onClickListener = View.OnClickListener {
-            //TODO: Fill in real license file url
-            val url = "https://www.github.com"
+            val url = "https://github.com/michaldaniel/teasteeping-android/blob/master/LICENSE"
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
             val bundle = Bundle()
             bundle.putString(FirebaseAnalytics.Param.ITEM_ID, "license")
@@ -127,7 +142,7 @@ class AboutActivity : AppCompatActivity() {
         element.iconDrawable = R.drawable.ic_eye
         element.iconTint = mehdi.sakout.aboutpage.R.color.about_item_icon_color
         element.onClickListener = View.OnClickListener {
-            val url = "https://apps.morningbird.eu/common/privacy"
+            val url = "https://morningbird.eu/app/teasteeping/privacy"
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
             val bundle = Bundle()
             bundle.putString(FirebaseAnalytics.Param.ITEM_ID, "privacy_policy")
@@ -144,8 +159,7 @@ class AboutActivity : AppCompatActivity() {
         element.iconDrawable = R.drawable.ic_source_fork
         element.iconTint = mehdi.sakout.aboutpage.R.color.about_item_icon_color
         element.onClickListener = View.OnClickListener {
-            //TODO: Fill in real source url
-            val url = "https://www.github.com"
+            val url = "https://github.com/michaldaniel/teasteeping-android"
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
             val bundle = Bundle()
             bundle.putString(FirebaseAnalytics.Param.ITEM_ID, "source_code")
@@ -163,8 +177,7 @@ class AboutActivity : AppCompatActivity() {
         element.iconDrawable = R.drawable.ic_bug
         element.iconTint = mehdi.sakout.aboutpage.R.color.about_item_icon_color
         element.onClickListener = View.OnClickListener {
-            //TODO: Fill in real support url
-            val url = "https://github.com"
+            val url = "https://github.com/michaldaniel/teasteeping-android/issues/new"
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
             val bundle = Bundle()
             bundle.putString(FirebaseAnalytics.Param.ITEM_ID, "support")
@@ -190,7 +203,7 @@ class AboutActivity : AppCompatActivity() {
         element.iconTint = mehdi.sakout.aboutpage.R.color.about_item_icon_color
         element.onClickListener = View.OnClickListener {
             //TODO: Fill in real release url
-            val url = "https://www.github.com"
+            val url = "https://play.google.com/store/apps/details?id=eu.morningbird.teasteeping"
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
             val bundle = Bundle()
             bundle.putString(FirebaseAnalytics.Param.ITEM_ID, "version")
