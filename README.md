@@ -14,6 +14,7 @@ Simple application listing instructions for steeping different tea types. Includ
 * [Source code from Github](https://github.com/michaldaniel/teasteeping-android/archive/master.zip)
 
 ### Screenshots
+
 <img src="https://user-images.githubusercontent.com/1345297/51793692-c1c91c00-21c4-11e9-8eb2-22ccf54b7fc6.png" alt="drawing" width="256"/> <img src="https://user-images.githubusercontent.com/1345297/51793693-c1c91c00-21c4-11e9-838a-3c19654b214e.png" alt="drawing" width="256"/> <img src="https://user-images.githubusercontent.com/1345297/51793694-c261b280-21c4-11e9-8f20-faa7c2cb7581.png" alt="drawing" width="256"/>
 
 ### Support
