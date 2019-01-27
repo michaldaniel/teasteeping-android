@@ -202,7 +202,6 @@ class AboutActivity : AppCompatActivity() {
         element.iconDrawable = R.drawable.ic_android
         element.iconTint = mehdi.sakout.aboutpage.R.color.about_item_icon_color
         element.onClickListener = View.OnClickListener {
-            //TODO: Fill in real release url
             val url = "https://play.google.com/store/apps/details?id=eu.morningbird.teasteeping"
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
             val bundle = Bundle()
